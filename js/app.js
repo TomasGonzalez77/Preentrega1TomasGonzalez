@@ -1,3 +1,4 @@
+//Productos de mi carrito
 const productos = [
 
     { nombre: "paleta", valor: 2000 },
@@ -8,6 +9,7 @@ const productos = [
 
 let carrito = []
 
+//Seleccion para iniciar la compra
 let seleccion =
     prompt("¡Hola! Bienvenido a nuestra tienda, ¿desea realizar una compra?")
 
@@ -26,7 +28,7 @@ if (seleccion == "si") {
 } else if (seleccion == "no") {
     alert("Que lastima 😓 esperamos que pronto cambies de opinion. ¡Hasta luego!")
 }
-
+//Bucle para agregar cosas al carrito
 while (seleccion != "no") {
     let producto = prompt("¡Agrega tus productos!")
     let valor = 0
@@ -48,6 +50,7 @@ while (seleccion != "no") {
             default:
                 break;
         }
+        //Bucle para agregar cantidad de unidades
         let unidades = parseInt(prompt
             ("¿Cuantas unidades de este producto desea agregar?"))
         carrito.push({ producto, unidades, valor })
