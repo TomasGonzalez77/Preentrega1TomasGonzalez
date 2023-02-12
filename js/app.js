@@ -66,5 +66,5 @@ while (seleccion != "no") {
     }
 }
 
-const total = carrito.reduce((acc,el) => acc + el.valor * el.unidades, 0)
-console.log(`El valor total de su compra es: ${total}`)
+const total = carrito.reduce((acc, el) => acc + el.valor * el.unidades, 0)
+alert(`El valor total de su compra es: ${total}`)
