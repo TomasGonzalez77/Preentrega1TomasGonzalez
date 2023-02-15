@@ -7,7 +7,7 @@ const productos = [
     { nombre: "grip", valor: 600 },
 ];
 
-let carrito = []
+let carrito = [""]
 
 //Seleccion para iniciar la compra
 let seleccion =
@@ -23,7 +23,7 @@ if (seleccion == "si") {
     alert("¡Nuestros productos")
     let nuestrosproductos = productos.map(
         (producto) => producto.nombre + " " + producto.valor);
-    alert(nuestrosproductos.join(" | "))
+    alert(nuestrosproductos.join(" $ | "))
     console.log(nuestrosproductos)
 } else if (seleccion == "no") {
     alert("Que lastima 😓 esperamos que pronto cambies de opinion. ¡Hasta luego!")
@@ -53,8 +53,8 @@ while (seleccion != "no") {
         //Bucle para agregar cantidad de unidades
         let unidades = parseInt(prompt
             ("¿Cuantas unidades de este producto desea agregar?"))
-        carrito.push({ producto, unidades, valor })
-        console.log(carrito)
+        carrito.push({ producto, unidades, valor, });
+        console.log(carrito);
     } else {
         alert("Ese producto no esta disponible")
     }
@@ -66,5 +66,5 @@ while (seleccion != "no") {
     }
 }
 
-const total = carrito.reduce((acc, el) => acc + el.valor * el.unidades, 0)
-alert(`El valor total de su compra es: ${total}`)
+const total = carrito.reduce((acc, el) => acc + el.unidades * el.valor, 0,)
+console.log = (alert(`El valor total de su compra es: ${total}`))

@@ -1,3 +1,18 @@
-body{
+body {
     background-color: black;
+    justify-content: space-evenly;
+}
+
+h1 {
+    width: 500px;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+.card{
+    margin: 20px;
+    padding: 10px;
 }
