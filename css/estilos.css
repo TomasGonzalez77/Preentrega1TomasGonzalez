@@ -1,7 +1,10 @@
 body {
     background-color: black;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
 }
+
 
 h1 {
     width: 500px;
@@ -12,7 +15,8 @@ h2 {
     color: white;
 }
 
-.card{
+.card {
+
     margin: 20px;
     padding: 10px;
 }
