@@ -1,5 +1,5 @@
 localStorage.getItem("saludo",);
-localStorage.setItem('sudo', "")
+localStorage.setItem('saludo', "")
 console.log("Esta comprando", saludo);
 
 // Opción 1 ->  localStorage.setItem(name, content)
