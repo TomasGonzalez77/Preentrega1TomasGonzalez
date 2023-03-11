@@ -1,7 +1,7 @@
 const contenidoTienda = document.getElementById("contenidoTienda")
 const verCarrito = document.getElementById("verCarrito");
 const modalContainer = document.getElementById("modal-container")
-const saludo = prompt("Hola, ingresa tu nombre y apellido por favor")
+let saludo = prompt("Hola, ingresa tu nombre y apellido por favor")
 let carrito = [];
 
 productos.forEach((product) => {

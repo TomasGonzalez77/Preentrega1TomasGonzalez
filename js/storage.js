@@ -1,6 +1,6 @@
 localStorage.setItem("saludo",);
-let saludo = localStorage.getItem('Nombre')
-    
+localStorage.getItem("saludo")
+
 console.log(`Hola, esta comprando ${saludo}`)
 console.log("Esta comprando", saludo);
 
