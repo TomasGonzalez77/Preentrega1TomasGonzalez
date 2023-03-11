@@ -1,5 +1,7 @@
-localStorage.getItem("saludo",);
-localStorage.setItem('saludo', "")
+localStorage.setItem("saludo",);
+let saludo = localStorage.getItem('Nombre')
+    
+console.log(`Hola, esta comprando ${saludo}`)
 console.log("Esta comprando", saludo);
 
 // Opción 1 ->  localStorage.setItem(name, content)
