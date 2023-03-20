@@ -172,9 +172,17 @@ body {
     padding-top: 20px;
 }
 
-/*Eliminar productos*/
+/*Eliminar | Sumar | Restar productos*/
 
 .eliminar-producto {
+    cursor: pointer;
+}
+
+.sumar {
+    cursor: pointer;
+}
+
+.restar {
     cursor: pointer;
 }
 

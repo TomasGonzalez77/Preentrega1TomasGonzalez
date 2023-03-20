@@ -1,11 +1,9 @@
-localStorage.getItem("saludo",);
-console.log ("Esta comprando" , saludo);
+localStorage.setItem("saludo", saludo)
+localStorage.getItem("saludo")
+console.log("Esta comprando", saludo);
 
-const verCarrito1JSON = JSON.stringify(verCarrito);
-console.log(verCarrito1JSON);
+const guardadoLocal = () => {
+    localStorage.setItem("carrito", JSON.stringify(carrito));
+};
 
-localStorage.setItem("verCarrito", verCarrito1JSON);
-
-const objCarritoJSON = localStorage.getItem("verCarrito");
-const objCarrito = JSON.parse(objCarritoJSON);
-console.log(objCarrito);
+JSON.parse(localStorage.getItem("carrito"));
