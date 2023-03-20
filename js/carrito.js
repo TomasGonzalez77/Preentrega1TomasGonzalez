@@ -35,14 +35,14 @@ const pintarCarrito = () => {
 
         let restar = carritoContent.querySelector(".restar")
         restar.addEventListener("click", () => {
-            if(product.cantidad !== 1)
-            product.cantidad--;
+            if (product.cantidad !== 1)
+                product.cantidad--;
             pintarCarrito();
             guardadoLocal();
         });
 
         let sumar = (carritoContent.querySelector(".sumar"))
-        sumar.addEventListener("click", () =>{
+        sumar.addEventListener("click", () => {
             product.cantidad++;
             pintarCarrito();
             guardadoLocal();
@@ -51,7 +51,7 @@ const pintarCarrito = () => {
         console.log(carrito.length);
 
         let eliminar = document.createElement("span");
-        eliminar.innerText = "❌";
+        eliminar.innerText = "🗑";
         eliminar.className = "eliminar-producto";
         carritoContent.append(eliminar);
 
