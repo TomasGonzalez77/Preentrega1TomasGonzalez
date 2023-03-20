@@ -24,7 +24,7 @@ const productos = [
         id: 4,
         nombre: "Grip",
         precio: 700,
-        img: "https://http2.mlstatic.com/D_NQ_NP_718655-MLA45699565281_042021-O.webp",
+        img: "https://http2.mlstatic.com/D_NQ_NP_908720-MLA53859559513_022023-V.jpg",
         cantidad: 1,
     },
     {

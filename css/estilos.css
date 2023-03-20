@@ -1,6 +1,6 @@
 body {
     margin: 0;
-
+    background-color: #ffb0e4;
 }
 
 /*navbar*/
@@ -22,7 +22,7 @@ body {
 .navbar-logo {
     justify-self: start;
     margin-left: 20px;
-    color: #fff;
+    color: #ffb0e4;
     margin-top: 4vh;
     cursor: pointer;
 }
@@ -51,7 +51,7 @@ body {
 
 .banner h1 {
     margin: 0;
-    color: #fff;
+    color: #ffb0e4;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
     font-size: 62px;
     font-weight: bold;
@@ -59,7 +59,7 @@ body {
 
 .banner p {
     font-size: 30px;
-    color: #fff;
+    color: #ffb0e4;
     opacity: 0.7;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
@@ -91,7 +91,7 @@ body {
 }
 
 .precio {
-    color: grey;
+    color: #1b1b1b;
     font-size: 22px;
 }
 
@@ -198,4 +198,18 @@ body {
     right: 14px;
     position: absolute;
     display: none;
+}
+
+/*Footer*/
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #1b1b1b;
+    color: #ffb0e4;
+}
+
+a {
+    color: #ffb0e4;
 }
