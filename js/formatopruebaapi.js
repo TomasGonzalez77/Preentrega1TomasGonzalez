@@ -1,3 +1,6 @@
+//Con este archivo intente sumular que ingresaban los elementos desde un data.json pero al no pasar por algun servidor previamente 
+// y no tener un backend real la pagina me envio error, no estoy seguro de si ese error se debe a una mala implementacion o si es natural que pase, espero devolucion
+
 const contenidoTienda = document.getElementById("contenidoTienda");
 const verCarrito = document.getElementById("verCarrito");
 const modalContainer = document.getElementById("modal-container");
