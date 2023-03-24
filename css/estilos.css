@@ -1,6 +1,29 @@
 body {
     margin: 0;
-    background-color: #ffb0e4;
+}
+
+body::-webkit-scrollbar-face-color {
+    color: fuchsia;
+}
+
+body::-webkit-scrollbar-highlight-color {
+    color: green;
+}
+
+body::-webkit-scrollbar-darkshadow-color {
+    color: red;
+}
+
+body::-webkit-scrollbar-shadow-color {
+    color: blue;
+}
+
+body::-webkit-scrollbar-arrow-color {
+    color: blue;
+}
+
+body::-webkit-scrollbar-track-color {
+    color: black;
 }
 
 /*navbar*/
@@ -15,14 +38,14 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    height: 12vh;
+    height: 14vh;
     background-color: #1b1b1b;
+    color: #fff;
 }
 
 .navbar-logo {
     justify-self: start;
     margin-left: 20px;
-    color: #ffb0e4;
     margin-top: 4vh;
     cursor: pointer;
 }
@@ -51,7 +74,7 @@ body {
 
 .banner h1 {
     margin: 0;
-    color: #ffb0e4;
+    color: #fff;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
     font-size: 62px;
     font-weight: bold;
@@ -59,7 +82,7 @@ body {
 
 .banner p {
     font-size: 30px;
-    color: #ffb0e4;
+    color: #fff;
     opacity: 0.7;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
@@ -131,14 +154,15 @@ body {
 }
 
 .modal-container::-webkit-scrollbar {
-    display: none;
+    display: block;
+    border: #bcbbbb 1px solid;
 }
 
 .modal-header {
     display: flex;
     justify-content: space-around;
     background-color: #0a0909;
-    color: #fff;
+    color: #bcbbbb;
     width: 100%;
 }
 
@@ -207,9 +231,5 @@ footer {
     display: flex;
     justify-content: center;
     background-color: #1b1b1b;
-    color: #ffb0e4;
-}
-
-a {
-    color: #ffb0e4;
+    color: #fff;
 }
