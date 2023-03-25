@@ -1,3 +1,4 @@
+//Aca vas a encontrar las funcionalidades basicas de la pagina y los productos visibles, se pueden incorporar con el nombre de variable..
 const contenidoTienda = document.getElementById("contenidoTienda");
 const verCarrito = document.getElementById("verCarrito");
 const modalContainer = document.getElementById("modal-container");
