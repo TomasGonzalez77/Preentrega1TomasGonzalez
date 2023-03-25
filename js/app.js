@@ -1,9 +1,11 @@
-//Aca vas a encontrar las funcionalidades basicas de la pagina y los productos visibles, se pueden incorporar con el nombre de variable..
+//Funcionalidades basicas de la pagina y los productos visibles.
+
 const contenidoTienda = document.getElementById("contenidoTienda");
 const verCarrito = document.getElementById("verCarrito");
 const modalContainer = document.getElementById("modal-container");
 const cantidadCarrito = document.getElementById("cantidadCarrito");
 let saludo = prompt("Hola, ingresa tu nombre y apellido por favor");
+console.log("Esta comprando", saludo);
 
 let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
