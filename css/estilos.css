@@ -2,29 +2,6 @@ body {
     margin: 0;
 }
 
-body::-webkit-scrollbar-face-color {
-    color: fuchsia;
-}
-
-body::-webkit-scrollbar-highlight-color {
-    color: green;
-}
-
-body::-webkit-scrollbar-darkshadow-color {
-    color: red;
-}
-
-body::-webkit-scrollbar-shadow-color {
-    color: blue;
-}
-
-body::-webkit-scrollbar-arrow-color {
-    color: blue;
-}
-
-body::-webkit-scrollbar-track-color {
-    color: black;
-}
 
 /*navbar*/
 

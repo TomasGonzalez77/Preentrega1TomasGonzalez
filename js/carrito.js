@@ -76,15 +76,11 @@ const pintarCarrito = () => {
     <p class "pagar">Total a pagar: $ ${total}</p> `;
 
     modalContainer.append(totalCompra);
-
-    let abonarCompra = (totalCompra.querySelector(".abonar"))
-    abonarCompra.addEventListener("click", () => {
-        enviarCompra();
-    })
 };
 
 verCarrito.addEventListener("click", pintarCarrito)
 
+//Funcion para eliminar productos del carrito mediante el boton "borrar 🗑"
 const eliminarProducto = () => {
     const foundID = carrito.find((element) => element.id);
 
@@ -97,6 +93,7 @@ const eliminarProducto = () => {
     pintarCarrito();
 };
 
+//Funcion para que se pueda ver la cantidad de productos en el carrito | JSON para que al refrescar la pagina no haga reset y se pueda ver la cantidad.
 const carritoCounter = () => {
     cantidadCarrito.style.display = "block";
 
@@ -108,7 +105,3 @@ const carritoCounter = () => {
 };
 
 carritoCounter();
-
-const enviarCompra = () => {
-
-}

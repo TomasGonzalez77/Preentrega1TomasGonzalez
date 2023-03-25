@@ -1,3 +1,4 @@
+//Productos que se incorporan mediante getElementById en el DOM
 const productos = [
     {
         id: 1,
