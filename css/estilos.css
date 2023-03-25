@@ -1,8 +1,6 @@
 body {
     margin: 0;
 }
-
-
 /*navbar*/
 
 
@@ -17,7 +15,7 @@ body {
     justify-content: space-between;
     height: 14vh;
     background-color: #1b1b1b;
-    color: #fff;
+    color: #bcbbbb;
 }
 
 .navbar-logo {
@@ -212,5 +210,5 @@ footer {
     display: flex;
     justify-content: center;
     background-color: #1b1b1b;
-    color: #fff;
+    color: #bcbbbb;
 }
