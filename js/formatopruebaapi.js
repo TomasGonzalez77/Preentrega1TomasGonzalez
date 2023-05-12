@@ -50,8 +50,6 @@ const traerProductos = async () => {
 
                 });
             }
-            console.log(carrito);
-            console.log(carrito.length);
             carritoCounter();
             guardadoLocal();
         });

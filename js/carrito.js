@@ -51,8 +51,6 @@ const pintarCarrito = () => {
             guardadoLocal();
         })
 
-        //Prueba mediante console.log
-        console.log(carrito.length);
 
         //Funcion para eliminar productos mediante el elemento "Eliminar 🗑"
         let eliminar = document.createElement("span");
